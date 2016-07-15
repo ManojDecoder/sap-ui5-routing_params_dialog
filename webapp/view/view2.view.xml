@@ -1,0 +1,17 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" xmlns:forms="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core" xmlns="sap.m" controllerName="new_project.controller.view2">
+	 
+	<App>
+		<pages>
+		 
+			<Page title="Title">
+				<content>
+					 
+					<Button text="Dialog" width="100px" id="__button0" press="Create"/>
+					 
+					<Input width="100%" id="inputview2" value="{inputview2}"/>
+					 <Button text="To view1" width="100px" id="to_view1" press="to_view1"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

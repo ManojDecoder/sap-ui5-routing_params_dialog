@@ -1,0 +1,14 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.core="sap.ui.core" controllerName="new_project.controller.View1">
+
+  <App id="app" width="100%">
+ 
+		<pages>
+			<Page title="{i18n&gt;title}">
+				<content>
+					<Button text="To view2" width="100px" id="to_view2" press="to_view2"/>
+					<Input width="100%" id="inputview1" value="502020"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
